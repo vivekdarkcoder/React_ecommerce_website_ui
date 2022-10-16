@@ -1,0 +1,49 @@
+* {
+      margin: 0;
+      padding: 0;
+      text-decoration: none;
+}
+
+
+@media (max-width: 750px){
+      .menu{
+          top: 19px; 
+          width: 200px; 
+          margin: 5px auto;      
+          flex-direction:column;
+          align-items: center;
+          transition: 0.4s ;
+      } 
+      .a{
+            margin: 1px !important;
+      }
+      .logo{
+            z-index: 2;
+            top: 6px;
+            position: fixed;
+      }
+      .navbar{
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+      }
+      .md-menu{
+            top: -300px !important;
+
+      }
+      .md-navbar{
+         
+          height: 270px !important;
+      }
+  
+      .hamberg{
+          position: absolute;
+          right: 25px;
+          top: 15px;
+          display: block !important;
+          cursor: pointer;
+      }
+     
+      
+      
+  }
